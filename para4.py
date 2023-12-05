@@ -40,6 +40,17 @@ class Display:
 class Processor:
     def __init__(self):
         self.speed = 4
+
 class Computer(Processor, Display):
-    play = 0
+    def finish(self):
+        if len(Processor, Display) != 0:
+            print('Cool!You built yourself a computer!')
+        else:
+            print('Sorry You can not(')
+    def verification(self):
+        if self.speed == 4:
+            print('You have a nice computer')
+        else:
+            print('your computer couldnt take it')
+
 
